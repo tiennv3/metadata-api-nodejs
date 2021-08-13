@@ -35,6 +35,17 @@ app.get('/api/token/:token_id', function(req, res) {
     'image': `${HOST}/images/${tokenId}.png`,
     'description': person.description,
     'external_link': person.external_link,
+  }
+  res.send(data)
+})
+
+app.get('/api/contract/metadata', function(req, res) {
+  const person = db["contract"]
+  const data = {
+    'name': person.name,
+    'image': `${HOST}/images/contract.png`,
+    'description': person.description,
+    'external_link': person.external_link,
     'seller_fee_basis_points': person.seller_fee_basis_points,
     'fee_recipient': person.fee_recipient
   }

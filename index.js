@@ -15,7 +15,7 @@ const app = express()
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.get('/', function(req, res) {
-  res.send('Get ready for OpenSea!');
+  res.send('Get ready for Cyball!');
 })
 
 app.get('/api/token/:token_id', function(req, res) {
@@ -32,7 +32,11 @@ app.get('/api/token/:token_id', function(req, res) {
       'zodiac sign': zodiac(day, month),
       // 'age': moment().diff(person.birthday, 'years')
     },
-    'image': `${HOST}/images/${tokenId}.png`
+    'image': `${HOST}/images/${tokenId}.png`,
+    'description': person.description,
+    'external_link': person.external_link,
+    'seller_fee_basis_points': person.seller_fee_basis_points,
+    'fee_recipient': person.fee_recipient
   }
   res.send(data)
 })

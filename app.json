@@ -1,7 +1,7 @@
 {
-  "name": "Metadata API for NFTs",
-  "description": "Sample metadata API for crypto collectibles",
-  "repository": "https://github.com/ProjectOpenSea/metadata-api-nodejs",
-  "logo": "https://storage.googleapis.com/opensea-rinkeby/0x7dca125b1e805dc88814aed7ccc810f677d3e1db.png",
+  "name": "Metadata API for NFTs Cyball",
+  "description": "metadata API for Cybloc crypto collectibles",
+  "repository": "https://github.com/tiennv3/metadata-api-nodejs",
+  "logo": "https://www.clipartmax.com/png/small/287-2872010_c-y-b-o-r-g-trangnghiem-cyborg-justice-league-film.png",
   "keywords": ["nft", "crypto", "opensea", "erc721", "erc1155", "node", "express", "static"]
 }

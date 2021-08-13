@@ -1,13 +1,13 @@
 {
-  "name": "metadata-api-nodejs",
+  "name": "cyball-metadata-api-nodejs",
   "version": "1.0.0",
-  "description": "Sample metadata API for crypto collectibles",
+  "description": "Metadata API for crypto Cybloc",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "node test.js"
   },
-  "author": "Alex Atallah <alex.atallah@opensea.io>",
+  "author": "tiennguyen <tiennguyen@tomochain.com>",
   "license": "MIT",
   "dependencies": {
     "ejs": "^2.6.1",

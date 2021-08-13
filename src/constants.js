@@ -1,4 +1,4 @@
-const HOST = 'https://birthstamps.herokuapp.com'
+const HOST = 'https://metadata-api-for-cyball.herokuapp.com'
 
 module.exports = {
   HOST
